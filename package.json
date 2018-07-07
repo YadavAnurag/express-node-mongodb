@@ -1,0 +1,23 @@
+{
+  "name": "express-node-mongodb",
+  "version": "1.0.0",
+  "description": "Express node and MongoDB Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app.js --exec babel-node -e js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anurag Yadav",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "jshint": "^2.9.5",
+    "lodash": "^4.17.10"
+  }
+}
